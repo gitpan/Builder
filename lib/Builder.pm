@@ -2,7 +2,7 @@ package Builder;
 use strict;
 use warnings;
 use Carp;
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 
 sub new {
@@ -70,14 +70,13 @@ sub _new_block {
 __END__
 
 
-
 =head1 NAME
 
 Builder - Build XML, HTML, CSS and other outputs in blocks
 
 =head1 VERSION
 
-Version 0.03
+Version 0.05
 
 
 
@@ -306,7 +305,7 @@ L<Class::XML>, L<XML::Generator>
 
 =head2 Builder Source Code
 
-GitHub at  http://github.com/draegtun/builder/tree/master
+GitHub at  http://github.com/draegtun/builder
 
 =head1 DISCLAIMER
 
@@ -318,7 +317,7 @@ However I accept no liability I<whatsoever> should this software do what you exp
 
 =head1 COPYRIGHT & LICENSE
 
-Copyright 2008,2009 Barry Walsh (Draegtun Systems Ltd), all rights reserved.
+Copyright 2008-2010 Barry Walsh (Draegtun Systems Ltd | L<http://www.draegtun.com>), all rights reserved.
 
 This program is free software; you can redistribute it and/or modify it
 under the same terms as Perl itself.
